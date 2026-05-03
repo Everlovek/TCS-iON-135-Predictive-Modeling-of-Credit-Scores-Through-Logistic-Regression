@@ -11,7 +11,7 @@ The model is designed with three core business requirements in mind:
  **Cost-effectiveness** - minimal compute resources via distributed computing
 
 ##  Dataset
- **Source:** [Give Me Some Credit — Kaggle (2011)](https://www.kaggle.com/c/GiveMeSomeCredit)
+ **Source:** [Give Me Some Credit - Kaggle (2011)](https://www.kaggle.com/c/GiveMeSomeCredit)
  **Size:** 150,000 borrower records, 10 financial features
  **Target variable:** `SeriousDlqin2yrs` - whether a borrower defaulted within 2 years (binary: 0/1)
  **Class imbalance:** ~93% non-default, ~7% default
@@ -83,7 +83,7 @@ Inference run on 3 synthetic borrower profiles with credit decision output (appr
 4. Frequency of Payments (30–59 days past due)
 
 ## Key Features
-Distributed ML pipeline built entirely on **PySpark MLlib** — scalable to millions of records
+Distributed ML pipeline built entirely on **PySpark MLlib** - scalable to millions of records
 Custom **decision threshold (0.3)** to prioritize recall for high-risk borrowers
 Full **exploratory data analysis** with correlation heatmaps, class distribution charts, and outlier plots
 **Feature importance** derived from logistic regression coefficients
@@ -121,7 +121,7 @@ jupyter notebook notebooks/predictive_modeling.ipynb
 
 ## References
 - Kaggle. (2011). *Give Me Some Credit* competition dataset.
-- Apache Spark Documentation — MLlib: [spark.apache.org/docs/latest/ml-guide.html](https://spark.apache.org/docs/latest/ml-guide.html)
+- Apache Spark Documentation : MLlib: [spark.apache.org/docs/latest/ml-guide.html](https://spark.apache.org/docs/latest/ml-guide.html)
 - Siddiqi, N. (2006). *Credit Risk Scorecards.* Wiley.
 - Hand, D.J. & Henley, W.E. (1997). Statistical classification methods in consumer credit scoring. *Journal of the Royal Statistical Society.*
 
